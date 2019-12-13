@@ -1,3 +1,8 @@
+.centerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -170,7 +175,7 @@ p {
 .nav-bar .nav-text {
   height: 6vh;
   font-size: 3.2rem;
-  padding-top: 1%;
+  padding-top: 1.5%;
 }
 .nav-bar .nav-links {
   width: 80%;
@@ -238,7 +243,6 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  display: block;
   background-color: #23293B;
   margin: 0 10px 20px;
   cursor: pointer;
