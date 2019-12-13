@@ -190,6 +190,19 @@ p {
   width: 12%;
   font-size: 1.6rem;
 }
+@media ( max-width: 500px ) {
+  .nav-bar {
+    max-width: 500px;
+    width: 100%;
+    margin: 0% auto;
+  }
+  .nav-bar .nav-links {
+    justify-content: space-between;
+  }
+  .nav-bar .nav-links a {
+    width: 20%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
