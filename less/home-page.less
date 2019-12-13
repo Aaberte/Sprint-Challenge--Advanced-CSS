@@ -74,3 +74,47 @@
     }
   }
 }// home
+
+@media @phone {
+  .space-images .launch {
+    display: none;
+  }
+  .space-images .sky {
+    display: none;
+  }
+  .home .walk {
+    display:flex;
+    flex-direction: column-reverse;
+    margin: 0% auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 2% 0% 0% 0%;
+  }
+}
+
+@media @phone {
+  .home .walk .walk-text {
+    padding-top: 5%;
+    width: 100%;
+    .btn {
+      .custom-button(@ebony-clay, 500px, white);
+      margin: 0% auto;
+      padding-top: 2.5%;
+    }
+    p {
+      width:100%;
+    }
+  }
+  .home .walk .walk-img {
+    margin: 0% auto;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+@media @phone {
+  .home .space-images img {
+    max-width: 500px;
+    width: 100%;
+  }
+}
