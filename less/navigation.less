@@ -1,1 +1,37 @@
 // Navigation code here
+
+.nav-bar { 
+    .nav-text {
+    .navText(6vh, 3.2rem, 1.5%);
+    }   
+    background-color: @nav-bg;
+    margin: 0% auto;
+    height: 10vh;
+    width: 95%;
+    text-align: center;
+ .nav-links {    
+    width: 80%;
+    margin: 0% auto;
+    .centerFlex();
+    a {
+        text-decoration: none;
+        color: @nav-font;
+        width: 12%;
+        font-size: 1.6rem;        
+    }//closes links anchor
+}//closes nav-links
+}//closes nav bar
+
+@media @phone {
+    .nav-bar {
+        max-width: 500px;
+        width: 100%;
+        margin: 0% auto;
+        .nav-links {
+            justify-content: space-between;
+            a {
+                width: 20%;
+            }            
+        }
+    }
+}

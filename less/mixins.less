@@ -1,1 +1,32 @@
 // Mixins Here
+
+.custom-button(@bg-color, @width, @font-color){
+    background-color: @bg-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@font-color;
+    text-align:center;
+    padding-top:4%;
+    padding-right:2%; 
+
+    &:hover {
+        background-color: white;
+        color: @ebony-clay;
+      }
+}
+
+.centerFlex {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navText(@height, @font-size, @padTop) {
+	height: @height;
+	font-size: @font-size;
+	padding-top: @padTop;
+}
